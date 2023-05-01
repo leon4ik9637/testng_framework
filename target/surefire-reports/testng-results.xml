@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="7" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-27T19:11:28 EDT" name="Surefire suite" finished-at="2023-04-27T19:12:12 EDT" duration-ms="43514">
+    <groups>
+    </groups>
+    <test started-at="2023-04-27T19:11:28 EDT" name="Surefire test" finished-at="2023-04-27T19:12:12 EDT" duration-ms="43514">
+      <class name="scripts._03_EtsyTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:scripts._03_EtsyTest@4562e04d]" started-at="2023-04-27T19:11:28 EDT" name="setup" finished-at="2023-04-27T19:11:33 EDT" duration-ms="5140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="etsyLogoIsDisplayed()[pri:1, instance:scripts._03_EtsyTest@4562e04d]" started-at="2023-04-27T19:11:33 EDT" name="etsyLogoIsDisplayed" finished-at="2023-04-27T19:11:40 EDT" duration-ms="6507" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- etsyLogoIsDisplayed -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:scripts._03_EtsyTest@4562e04d]" started-at="2023-04-27T19:11:40 EDT" name="tearDown" finished-at="2023-04-27T19:11:40 EDT" duration-ms="295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:scripts._03_EtsyTest@4562e04d]" started-at="2023-04-27T19:11:40 EDT" name="setup" finished-at="2023-04-27T19:11:42 EDT" duration-ms="2033" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testEtsySearch()[pri:3, instance:scripts._03_EtsyTest@4562e04d]" started-at="2023-04-27T19:11:42 EDT" name="testEtsySearch" finished-at="2023-04-27T19:11:47 EDT" duration-ms="4883" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEtsySearch -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:scripts._03_EtsyTest@4562e04d]" started-at="2023-04-27T19:11:47 EDT" name="tearDown" finished-at="2023-04-27T19:11:47 EDT" duration-ms="226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:scripts._03_EtsyTest@4562e04d]" started-at="2023-04-27T19:11:47 EDT" name="setup" finished-at="2023-04-27T19:11:49 EDT" duration-ms="2058" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testEtsySearchResult()[pri:2, instance:scripts._03_EtsyTest@4562e04d]" started-at="2023-04-27T19:11:49 EDT" name="testEtsySearchResult" finished-at="2023-04-27T19:11:55 EDT" depends-on-methods="scripts._03_EtsyTest.testEtsySearch" duration-ms="5610" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEtsySearchResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:scripts._03_EtsyTest@4562e04d]" started-at="2023-04-27T19:11:55 EDT" name="tearDown" finished-at="2023-04-27T19:11:55 EDT" duration-ms="267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- scripts._03_EtsyTest -->
+      <class name="scripts._02_TechGlobalTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:scripts._02_TechGlobalTest@2a65fe7c]" started-at="2023-04-27T19:11:55 EDT" name="setup" finished-at="2023-04-27T19:11:57 EDT" duration-ms="2012" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testApplicationFormHeading()[pri:0, instance:scripts._02_TechGlobalTest@2a65fe7c]" started-at="2023-04-27T19:11:57 EDT" name="testApplicationFormHeading" description="TC123: Validate Application form heading" finished-at="2023-04-27T19:12:02 EDT" duration-ms="5058" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testApplicationFormHeading -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:scripts._02_TechGlobalTest@2a65fe7c]" started-at="2023-04-27T19:12:02 EDT" name="tearDown" finished-at="2023-04-27T19:12:03 EDT" duration-ms="213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- scripts._02_TechGlobalTest -->
+      <class name="scripts._01_AppleTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:scripts._01_AppleTest@4135c3b]" started-at="2023-04-27T19:12:03 EDT" name="setup" finished-at="2023-04-27T19:12:04 EDT" duration-ms="1886" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testAppleTitle()[pri:1, instance:scripts._01_AppleTest@4135c3b]" started-at="2023-04-27T19:12:04 EDT" name="testAppleTitle" finished-at="2023-04-27T19:12:07 EDT" duration-ms="2507" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAppleTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:scripts._01_AppleTest@4135c3b]" started-at="2023-04-27T19:12:07 EDT" name="tearDown" finished-at="2023-04-27T19:12:07 EDT" duration-ms="140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:scripts._01_AppleTest@4135c3b]" started-at="2023-04-27T19:12:07 EDT" name="setup" finished-at="2023-04-27T19:12:09 EDT" duration-ms="2050" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testAppleURL()[pri:2, instance:scripts._01_AppleTest@4135c3b]" started-at="2023-04-27T19:12:09 EDT" name="testAppleURL" description="TC873" finished-at="2023-04-27T19:12:12 EDT" duration-ms="2408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAppleURL -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:scripts._01_AppleTest@4135c3b]" started-at="2023-04-27T19:12:12 EDT" name="tearDown" finished-at="2023-04-27T19:12:12 EDT" duration-ms="162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- scripts._01_AppleTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
