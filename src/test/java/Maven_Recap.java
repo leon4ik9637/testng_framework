@@ -151,6 +151,17 @@ public class Maven_Recap {
                             -> (actual, expected)
     Assert.fail(); // for known issues
 
+    How do you use OOP principles in your framework?
+    What design patterns do you use in your framework?
+        1. Singleton -> use same driver instance across
+        the project
+        2. POM -> Page Object Model is used to store
+        web elements and their related methods in
+        different object repositories (classes)
+
+
+
+
 
 
 

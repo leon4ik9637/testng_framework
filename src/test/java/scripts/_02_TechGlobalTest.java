@@ -17,11 +17,8 @@ public class _02_TechGlobalTest extends Base{
     public void testApplicationFormHeading(){
         driver.get("https://www.carvana.com");
 
-        WebElement heading1 = driver.findElement(By.xpath("//*[contains(text(),'Affordable Cars Available Now')]"));
-        heading1.getText();
-
-        Assert.assertTrue(heading1.isDisplayed());
-        Assert.assertEquals(heading1.getText(), "Affordable Cars Available Now");
+        Assert.assertTrue(tgApplicationPage.heading1.isDisplayed());
+        Assert.assertEquals(tgApplicationPage.heading1.getText(), "Affordable Cars Available Now");
     }
 
 }
