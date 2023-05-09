@@ -1,5 +1,6 @@
 package scripts;
 
+import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import utilities.DropdownHandler;

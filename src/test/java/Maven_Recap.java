@@ -82,7 +82,7 @@ public class Maven_Recap {
     script results
 
 
-    TOP 3 ADVANTAGES OF TESTING
+    TOP 3 ADVANTAGES OF TESTNG
     reporting
     annotations -> @BeforeMethod, @Test, @AfterMethod
     assertions -> assertEquals(), assertTrue(), fail()
@@ -100,7 +100,7 @@ public class Maven_Recap {
     clean up
     - it is executed after each Test
 
-    3. @Tes
+    3. @Test
     - it is actual test script to validate some functionalities
     of the application
     - NOTE: By default, all the tests are running by alphabetical

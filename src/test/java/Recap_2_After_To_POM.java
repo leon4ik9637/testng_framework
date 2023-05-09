@@ -40,7 +40,7 @@ public class Recap_2_After_To_POM {
         credentials
         Action                      Expected result
         1. Go to application        User should be on app
-        2. Enter credentials        User should be able to enter creds
+        2. Enter credentials        User should be able to enter credentials
         3. Click on login btn       User should be logged in
 
         BDD -> Behavior based - Gherkin
@@ -53,7 +53,7 @@ public class Recap_2_After_To_POM {
         Then user should be logged in
 
         DDD -> Data-Driven Development Framework
-        Hybrid -> DDD + TDD
+        Hybrid -> BDD + TDD
 
 
 
@@ -62,7 +62,7 @@ public class Recap_2_After_To_POM {
             - My current framework is a TDD one that is utilizing
             Java together with Maven, GIT ad Jenkins.
             - We use Maven as it provides pom.xml to centralize all
-            our dependencies with their versions and it makes it
+            our dependencies with their versions, and it makes it
             easy to maintain libraries or jars. pom.xml also stores
             all our plugins, profiles, builds etc.
             - Maven also provides us surefire reports in the target

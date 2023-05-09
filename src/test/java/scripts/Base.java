@@ -25,6 +25,8 @@ public class Base {
     FacebookPage facebookPage;
     ExpediaPage expediaPage;
     EbayPage ebayPage;
+    RediffHomePage rediffHomePage;
+    AmazonHomePage amazonHomePage;
 
     @BeforeMethod
     public void setup(){
@@ -40,6 +42,8 @@ public class Base {
         facebookPage = new FacebookPage(driver);
         expediaPage = new ExpediaPage(driver);
         ebayPage = new EbayPage(driver);
+        rediffHomePage = new RediffHomePage(driver);
+        amazonHomePage = new AmazonHomePage(driver);
     }
 
     @AfterMethod
