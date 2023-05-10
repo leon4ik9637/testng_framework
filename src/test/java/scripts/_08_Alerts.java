@@ -126,26 +126,18 @@ public class _08_Alerts extends Base{
     @Test(priority = 5, description = "Task-5 - Amazon Address Modal")
     public void testAmazonAddressModal(){
 
+
         driver.get("https://www.amazon.com/");
-
         amazonHomePage.deliverToCanadaLink.click();
-
         Assert.assertTrue(amazonHomePage.chooseYourLocationModal.isDisplayed());
+
         String zipCode = "60018";
 
         amazonHomePage.zipCodeInputBox.sendKeys(zipCode);
         amazonHomePage.applyButton.click();
-
         Waiter.pause(4);
 
         Assert.assertTrue(amazonHomePage.deliveryMessage.getText().contains(zipCode));
-
-
-
-
-
-
-
     }
 
 }

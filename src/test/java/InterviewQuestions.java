@@ -73,6 +73,86 @@ public class InterviewQuestions {
         If you try to switch to an iframe that does not exist,
         then you will get NoSuchFrameException
 
+        RECAP:
+        How do we handle Alerts?
+            - JavaScript Alerts
+                - Warning-Information
+                - Confirmation
+                - Prompt
+            - Methods
+                -accept()
+                - dismiss()
+                -getText()
+                -sendKeys()
+        driver.switchTo().alert()
+
+        How do we handle iframes?
+            - it is html inside another html
+            - driver.switchTo().frame(index);
+            - driver.switchTo().frame(iFrameWebElement);
+            - driver.switchTo().frame(id or name);
+
+            Switching back to parent frame
+            - driver.switchTo().parentFrame()
+            - driver.switchTo().defaultContent()
+
+
+        How do we handle multiple windows/tabs?
+            -driver.switchTo().window(windowHandle);
+
+        driver.close() vs driver.quit()
+        - close() is used to close only current window/tab
+        - quit() kills the browser session with all tabs,
+        popups etc.
+
+        getWindowHandle() vs getWindowHandles()
+        - getWindowHandle() retrieves the current window
+        id
+        - returns a String
+        - getWindowHandles() will retrieve and return all
+        the existing window handles
+        - returns a Set of Strings as each string is a
+        unique window handle
+
+        SELENIUM FILE UPLOAD - DOWNLOAD
+        - Selenium can handle uploading if you know your
+        file's absolute path
+        - We need to locate 2 elements usually. First is
+        input field to pass path of the file we want to
+        upload and 2 is upload button
+        - After locating these 2 elements, we will pass
+        file path to input field by using sendKeys(path)
+        method and click on upload button by click()
+        method
+        - With that our file will be uploaded, and we can
+        validate upload with its text
+
+        - Selenium itself cannot handle file downloads as
+        its scope is restricted to browser, and it cannot
+        go to our Downloads folder
+        - To check if file is downloaded or to verify the
+        content of the file, third party tools like Robot
+        and AutoIT can be used
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

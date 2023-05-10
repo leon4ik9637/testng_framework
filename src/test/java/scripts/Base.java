@@ -27,6 +27,8 @@ public class Base {
     EbayPage ebayPage;
     RediffHomePage rediffHomePage;
     AmazonHomePage amazonHomePage;
+    FootballUAHomePage footballUAHomePage;
+    DemoGuruPage demoGuruPage;
 
     @BeforeMethod
     public void setup(){
@@ -44,6 +46,9 @@ public class Base {
         ebayPage = new EbayPage(driver);
         rediffHomePage = new RediffHomePage(driver);
         amazonHomePage = new AmazonHomePage(driver);
+        footballUAHomePage = new FootballUAHomePage(driver);
+        demoGuruPage = new DemoGuruPage(driver);
+
     }
 
     @AfterMethod

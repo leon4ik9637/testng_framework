@@ -18,6 +18,30 @@ public class HeroAppPage {
     @FindBy(xpath = "//ul/li/a")
     public List<WebElement> links;
 
+    @FindBy(css = "#content a")
+    public WebElement multipleWindowsPageClickHereLink;
+
+    @FindBy(css = "#content h3")
+    public WebElement windowsH3;
+
+    @FindBy(id = "file-upload")
+    public WebElement chooseFileInputBox;
+
+    @FindBy(id = "file-submit")
+    public WebElement uploadFileButton;
+
+    @FindBy(xpath = "//h3")
+    public WebElement fileUploadedH3;
+
+    @FindBy(id = "uploaded-files")
+    public WebElement uploadedFileText;
+
+    @FindBy(linkText = "myFileGron2.xls")
+    public WebElement downloadFileLink;
+
+    @FindBy(xpath = "//h3")
+    public WebElement newWindowH3;
+
     @FindBy(css = "#checkboxes>input")
     public List<WebElement> checkboxes;
 
