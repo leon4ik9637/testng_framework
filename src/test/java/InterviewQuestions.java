@@ -135,6 +135,68 @@ public class InterviewQuestions {
         and AutoIT can be used
 
 
+        Exceptions
+        1. NoSuchElementException
+
+        2. StaleElementReferenceException
+            When your element lost reference in the DOM
+        3. ElementClickInterceptedException
+
+        1. move to element - moveToElement()(targetElement)
+        - This method moves the mouse to the middle of the
+        element
+        - the element is also scrolled into the view on
+        performing this action
+        - it is also known as hovering over on the element
+
+        2. click on an element - click()
+        - this method performs a mouse move to the location of
+        the element and performs the click action
+
+        3. right-click on the element - contextClick()
+        - this method performs a mouse move to the location of
+        the element and performs the right-click action
+
+        4. click and hold
+        - clickAndHold() method is used to click and hold a
+        web element until released
+
+        5. release
+        - release() method is used to release the
+        clicked-and-held element at the existing mouse
+        location
+
+        6. Drag and drop
+        This method takes 2 argument
+            source element
+            target element
+        - first, it moves to source - element and clicks and
+        hold the element
+        - then, it moves to target - element and release the
+        source element
+
+        actions.moveToElement(source).clickAndHold().moveToElement(target).release().perform();
+
+        Keyboard actions
+            sendKeys()
+            keyDown()
+            keyUp()
+
+        7. send keys - sendKeys()
+
+        What is the fastest driver to do UI testing?
+        - headless testing
+        A headless browses is a web browser without a
+        graphical user interface.
+        - Headless browsers provide automated control of a
+        webpage in an environment similar to popular web
+        browsers, but they are executed via a command-line
+        interface or using network communication
+
+
+
+
+
 
 
 

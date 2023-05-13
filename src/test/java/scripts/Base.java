@@ -1,6 +1,7 @@
 package scripts;
 
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.Wait;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -17,6 +18,7 @@ public class Base {
     WebDriverWait explicitWait;
     Wait fluentWait;
     SoftAssert softAssert;
+    Actions actions;
     EtsySearchPage etsySearchPage;
     TGApplicationPage tgApplicationPage;
     GoogleSearchPage googleSearchPage;
@@ -36,6 +38,7 @@ public class Base {
         explicitWait = new WebDriverWait(driver, 30);
         fluentWait = new FluentWait(driver).withTimeout(30, TimeUnit.SECONDS).pollingEvery(2, TimeUnit.SECONDS).ignoring(Exception.class);
         softAssert = new SoftAssert();
+        actions = new Actions(driver);
         etsySearchPage = new EtsySearchPage(driver);
         tgApplicationPage = new TGApplicationPage(driver);
         googleSearchPage = new GoogleSearchPage(driver);
@@ -48,7 +51,6 @@ public class Base {
         amazonHomePage = new AmazonHomePage(driver);
         footballUAHomePage = new FootballUAHomePage(driver);
         demoGuruPage = new DemoGuruPage(driver);
-
     }
 
     @AfterMethod

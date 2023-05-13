@@ -1,115 +1,354 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="6" total="14" passed="8" failed="0" skipped="0">
+<testng-results ignored="6" total="33" passed="27" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-05-04T13:43:11 EDT" name="Regression" finished-at="2023-05-04T13:44:31 EDT" duration-ms="79820">
+  <suite started-at="2023-05-12T19:09:33 EDT" name="Regression" finished-at="2023-05-12T19:13:59 EDT" duration-ms="266183">
     <groups>
     </groups>
-    <test started-at="2023-05-04T13:43:11 EDT" name="All Functionalities" finished-at="2023-05-04T13:44:31 EDT" duration-ms="79820">
+    <test started-at="2023-05-12T19:09:33 EDT" name="All Functionalities" finished-at="2023-05-12T19:13:59 EDT" duration-ms="266183">
       <class name="scripts._03_EtsyTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:scripts._03_EtsyTest@683dbc2c]" started-at="2023-05-04T13:43:28 EDT" name="setup" finished-at="2023-05-04T13:43:30 EDT" duration-ms="1949" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:scripts._03_EtsyTest@7c1e2a9e]" started-at="2023-05-12T19:09:48 EDT" name="setup" finished-at="2023-05-12T19:09:50 EDT" duration-ms="1927" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testMainHeader()[pri:4, instance:scripts._03_EtsyTest@683dbc2c]" started-at="2023-05-04T13:43:30 EDT" name="testMainHeader" description="TC905: Validate Etsy main header" finished-at="2023-05-04T13:43:34 EDT" duration-ms="3860" status="PASS">
+        <test-method signature="testMainHeader()[pri:4, instance:scripts._03_EtsyTest@7c1e2a9e]" started-at="2023-05-12T19:09:50 EDT" name="testMainHeader" description="TC905: Validate Etsy main header" finished-at="2023-05-12T19:09:59 EDT" duration-ms="9260" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMainHeader -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:scripts._03_EtsyTest@683dbc2c]" started-at="2023-05-04T13:43:34 EDT" name="tearDown" finished-at="2023-05-04T13:43:34 EDT" duration-ms="250" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:scripts._03_EtsyTest@7c1e2a9e]" started-at="2023-05-12T19:09:59 EDT" name="tearDown" finished-at="2023-05-12T19:09:59 EDT" duration-ms="235" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- scripts._03_EtsyTest -->
-      <class name="scripts._07_DropdownTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:scripts._07_DropdownTest@6ff29830]" started-at="2023-05-04T13:43:53 EDT" name="setup" finished-at="2023-05-04T13:43:55 EDT" duration-ms="1944" status="PASS">
+      <class name="scripts._11_FileUpload">
+        <test-method is-config="true" signature="setup()[pri:0, instance:scripts._11_FileUpload@3571b748]" started-at="2023-05-12T19:12:33 EDT" name="setup" finished-at="2023-05-12T19:12:35 EDT" duration-ms="2004" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testExpediaDropdowns()[pri:2, instance:scripts._07_DropdownTest@6ff29830]" started-at="2023-05-04T13:43:55 EDT" name="testExpediaDropdowns" description="TC578: Validate Expedia dropdowns" finished-at="2023-05-04T13:44:05 EDT" duration-ms="10136" status="PASS">
+        <test-method signature="testFileUpload1()[pri:1, instance:scripts._11_FileUpload@3571b748]" started-at="2023-05-12T19:12:35 EDT" name="testFileUpload1" description="File Upload" finished-at="2023-05-12T19:12:36 EDT" duration-ms="1705" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFileUpload1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:scripts._11_FileUpload@3571b748]" started-at="2023-05-12T19:12:36 EDT" name="tearDown" finished-at="2023-05-12T19:12:37 EDT" duration-ms="141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:scripts._11_FileUpload@3571b748]" started-at="2023-05-12T19:12:37 EDT" name="setup" finished-at="2023-05-12T19:12:39 EDT" duration-ms="1922" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testFileDownload()[pri:3, instance:scripts._11_FileUpload@3571b748]" started-at="2023-05-12T19:12:39 EDT" name="testFileDownload" description="File download" finished-at="2023-05-12T19:12:50 EDT" duration-ms="11651" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFileDownload -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:scripts._11_FileUpload@3571b748]" started-at="2023-05-12T19:12:50 EDT" name="tearDown" finished-at="2023-05-12T19:12:50 EDT" duration-ms="166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:scripts._11_FileUpload@3571b748]" started-at="2023-05-12T19:12:50 EDT" name="setup" finished-at="2023-05-12T19:12:52 EDT" duration-ms="1930" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testUploadFile3()[pri:4, instance:scripts._11_FileUpload@3571b748]" started-at="2023-05-12T19:12:52 EDT" name="testUploadFile3" description="File Upload Confirmation" finished-at="2023-05-12T19:13:00 EDT" duration-ms="7605" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUploadFile3 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:scripts._11_FileUpload@3571b748]" started-at="2023-05-12T19:13:00 EDT" name="tearDown" finished-at="2023-05-12T19:13:00 EDT" duration-ms="197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- scripts._11_FileUpload -->
+      <class name="scripts._07_DropdownTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:scripts._07_DropdownTest@32910148]" started-at="2023-05-12T19:10:18 EDT" name="setup" finished-at="2023-05-12T19:10:20 EDT" duration-ms="1871" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testExpediaDropdowns()[pri:2, instance:scripts._07_DropdownTest@32910148]" started-at="2023-05-12T19:10:20 EDT" name="testExpediaDropdowns" description="TC578: Validate Expedia dropdowns" finished-at="2023-05-12T19:10:30 EDT" duration-ms="10234" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testExpediaDropdowns -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:scripts._07_DropdownTest@6ff29830]" started-at="2023-05-04T13:44:05 EDT" name="tearDown" finished-at="2023-05-04T13:44:05 EDT" duration-ms="238" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:scripts._07_DropdownTest@32910148]" started-at="2023-05-12T19:10:30 EDT" name="tearDown" finished-at="2023-05-12T19:10:30 EDT" duration-ms="207" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:scripts._07_DropdownTest@6ff29830]" started-at="2023-05-04T13:44:05 EDT" name="setup" finished-at="2023-05-04T13:44:07 EDT" duration-ms="1925" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:scripts._07_DropdownTest@32910148]" started-at="2023-05-12T19:10:30 EDT" name="setup" finished-at="2023-05-12T19:10:32 EDT" duration-ms="2004" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testUnsecurePasswordErrorMessage()[pri:2, instance:scripts._07_DropdownTest@6ff29830]" started-at="2023-05-04T13:44:07 EDT" name="testUnsecurePasswordErrorMessage" description="TC235: Validate, after entering information, the error message matches" finished-at="2023-05-04T13:44:19 EDT" duration-ms="12506" status="PASS">
+        <test-method signature="testUnsecurePasswordErrorMessage()[pri:2, instance:scripts._07_DropdownTest@32910148]" started-at="2023-05-12T19:10:32 EDT" name="testUnsecurePasswordErrorMessage" description="TC235: Validate, after entering information, the error message matches" finished-at="2023-05-12T19:10:43 EDT" duration-ms="10836" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testUnsecurePasswordErrorMessage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:scripts._07_DropdownTest@6ff29830]" started-at="2023-05-04T13:44:19 EDT" name="tearDown" finished-at="2023-05-04T13:44:20 EDT" duration-ms="234" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:scripts._07_DropdownTest@32910148]" started-at="2023-05-12T19:10:43 EDT" name="tearDown" finished-at="2023-05-12T19:10:43 EDT" duration-ms="171" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:scripts._07_DropdownTest@6ff29830]" started-at="2023-05-04T13:44:20 EDT" name="setup" finished-at="2023-05-04T13:44:22 EDT" duration-ms="2112" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:scripts._07_DropdownTest@32910148]" started-at="2023-05-12T19:10:43 EDT" name="setup" finished-at="2023-05-12T19:10:45 EDT" duration-ms="2169" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testEbayDropdown()[pri:3, instance:scripts._07_DropdownTest@6ff29830]" started-at="2023-05-04T13:44:22 EDT" name="testEbayDropdown" description="TC242: Validate Ebay dropdown" finished-at="2023-05-04T13:44:31 EDT" duration-ms="8937" status="PASS">
+        <test-method signature="testEbayDropdown()[pri:3, instance:scripts._07_DropdownTest@32910148]" started-at="2023-05-12T19:10:45 EDT" name="testEbayDropdown" description="TC242: Validate Ebay dropdown" finished-at="2023-05-12T19:10:53 EDT" duration-ms="7778" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testEbayDropdown -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:scripts._07_DropdownTest@6ff29830]" started-at="2023-05-04T13:44:31 EDT" name="tearDown" finished-at="2023-05-04T13:44:31 EDT" duration-ms="316" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:scripts._07_DropdownTest@32910148]" started-at="2023-05-12T19:10:53 EDT" name="tearDown" finished-at="2023-05-12T19:10:54 EDT" duration-ms="257" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- scripts._07_DropdownTest -->
-      <class name="scripts._06_RadioButtonTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:scripts._06_RadioButtonTest@2638011]" started-at="2023-05-04T13:43:41 EDT" name="setup" finished-at="2023-05-04T13:43:43 EDT" duration-ms="2004" status="PASS">
+      <class name="scripts._08_Alerts">
+        <test-method is-config="true" signature="setup()[pri:0, instance:scripts._08_Alerts@3f56875e]" started-at="2023-05-12T19:10:54 EDT" name="setup" finished-at="2023-05-12T19:10:56 EDT" duration-ms="2017" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testFacebookGenderRadioButtons()[pri:1, instance:scripts._06_RadioButtonTest@2638011]" started-at="2023-05-04T13:43:43 EDT" name="testFacebookGenderRadioButtons" description="TC234: Validate Facebook gender radio buttons" finished-at="2023-05-04T13:43:53 EDT" duration-ms="9757" status="PASS">
+        <test-method signature="testEtsySignInModel()[pri:1, instance:scripts._08_Alerts@3f56875e]" started-at="2023-05-12T19:10:56 EDT" name="testEtsySignInModel" description="Task-1" finished-at="2023-05-12T19:11:04 EDT" duration-ms="8523" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEtsySignInModel -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:scripts._08_Alerts@3f56875e]" started-at="2023-05-12T19:11:04 EDT" name="tearDown" finished-at="2023-05-12T19:11:04 EDT" duration-ms="278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:scripts._08_Alerts@3f56875e]" started-at="2023-05-12T19:11:04 EDT" name="setup" finished-at="2023-05-12T19:11:06 EDT" duration-ms="1952" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testInformationWarningAlert()[pri:2, instance:scripts._08_Alerts@3f56875e]" started-at="2023-05-12T19:11:06 EDT" name="testInformationWarningAlert" description="Task-2 - Information-Warning alert" finished-at="2023-05-12T19:11:08 EDT" duration-ms="2076" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInformationWarningAlert -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:scripts._08_Alerts@3f56875e]" started-at="2023-05-12T19:11:08 EDT" name="tearDown" finished-at="2023-05-12T19:11:09 EDT" duration-ms="130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:scripts._08_Alerts@3f56875e]" started-at="2023-05-12T19:11:09 EDT" name="setup" finished-at="2023-05-12T19:11:10 EDT" duration-ms="1853" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testConfirmationAlert()[pri:3, instance:scripts._08_Alerts@3f56875e]" started-at="2023-05-12T19:11:10 EDT" name="testConfirmationAlert" description="Task-3 Confirmation Alert" finished-at="2023-05-12T19:11:13 EDT" duration-ms="2317" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testConfirmationAlert -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:scripts._08_Alerts@3f56875e]" started-at="2023-05-12T19:11:13 EDT" name="tearDown" finished-at="2023-05-12T19:11:13 EDT" duration-ms="168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:scripts._08_Alerts@3f56875e]" started-at="2023-05-12T19:11:13 EDT" name="setup" finished-at="2023-05-12T19:11:15 EDT" duration-ms="1832" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testPromptAlert()[pri:4, instance:scripts._08_Alerts@3f56875e]" started-at="2023-05-12T19:11:15 EDT" name="testPromptAlert" description="Task-4-Prompt Alert" finished-at="2023-05-12T19:11:17 EDT" duration-ms="2182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPromptAlert -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:scripts._08_Alerts@3f56875e]" started-at="2023-05-12T19:11:17 EDT" name="tearDown" finished-at="2023-05-12T19:11:17 EDT" duration-ms="155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:scripts._08_Alerts@3f56875e]" started-at="2023-05-12T19:11:17 EDT" name="setup" finished-at="2023-05-12T19:11:19 EDT" duration-ms="1771" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testAmazonAddressModal()[pri:5, instance:scripts._08_Alerts@3f56875e]" started-at="2023-05-12T19:11:19 EDT" name="testAmazonAddressModal" description="Task-5 - Amazon Address Modal" finished-at="2023-05-12T19:11:28 EDT" duration-ms="9384" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAmazonAddressModal -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:scripts._08_Alerts@3f56875e]" started-at="2023-05-12T19:11:28 EDT" name="tearDown" finished-at="2023-05-12T19:11:28 EDT" duration-ms="226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- scripts._08_Alerts -->
+      <class name="scripts._09_iFrames">
+        <test-method is-config="true" signature="setup()[pri:0, instance:scripts._09_iFrames@2b4bac49]" started-at="2023-05-12T19:11:28 EDT" name="setup" finished-at="2023-05-12T19:11:30 EDT" duration-ms="1924" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testIFrame1()[pri:1, instance:scripts._09_iFrames@2b4bac49]" started-at="2023-05-12T19:11:30 EDT" name="testIFrame1" finished-at="2023-05-12T19:11:48 EDT" duration-ms="18122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIFrame1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:scripts._09_iFrames@2b4bac49]" started-at="2023-05-12T19:11:48 EDT" name="tearDown" finished-at="2023-05-12T19:11:49 EDT" duration-ms="141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:scripts._09_iFrames@2b4bac49]" started-at="2023-05-12T19:11:49 EDT" name="setup" finished-at="2023-05-12T19:11:51 EDT" duration-ms="1966" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testIFrame2()[pri:2, instance:scripts._09_iFrames@2b4bac49]" started-at="2023-05-12T19:11:51 EDT" name="testIFrame2" description="Validate money iFrame is displayed" finished-at="2023-05-12T19:11:55 EDT" duration-ms="4195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIFrame2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:scripts._09_iFrames@2b4bac49]" started-at="2023-05-12T19:11:55 EDT" name="tearDown" finished-at="2023-05-12T19:11:55 EDT" duration-ms="195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- scripts._09_iFrames -->
+      <class name="scripts._06_RadioButtonTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:scripts._06_RadioButtonTest@672872e1]" started-at="2023-05-12T19:10:06 EDT" name="setup" finished-at="2023-05-12T19:10:08 EDT" duration-ms="2045" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testFacebookGenderRadioButtons()[pri:1, instance:scripts._06_RadioButtonTest@672872e1]" started-at="2023-05-12T19:10:08 EDT" name="testFacebookGenderRadioButtons" description="TC234: Validate Facebook gender radio buttons" finished-at="2023-05-12T19:10:18 EDT" duration-ms="9979" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFacebookGenderRadioButtons -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:scripts._06_RadioButtonTest@2638011]" started-at="2023-05-04T13:43:53 EDT" name="tearDown" finished-at="2023-05-04T13:43:53 EDT" duration-ms="205" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:scripts._06_RadioButtonTest@672872e1]" started-at="2023-05-12T19:10:18 EDT" name="tearDown" finished-at="2023-05-12T19:10:18 EDT" duration-ms="171" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- scripts._06_RadioButtonTest -->
       <class name="scripts._01_AppleTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:scripts._01_AppleTest@6e509ffa]" started-at="2023-05-04T13:43:11 EDT" name="setup" finished-at="2023-05-04T13:43:18 EDT" duration-ms="6897" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:scripts._01_AppleTest@394a2528]" started-at="2023-05-12T19:09:33 EDT" name="setup" finished-at="2023-05-12T19:09:38 EDT" duration-ms="5393" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testAppleURL()[pri:2, instance:scripts._01_AppleTest@6e509ffa]" started-at="2023-05-04T13:43:18 EDT" name="testAppleURL" description="TC873" finished-at="2023-05-04T13:43:21 EDT" duration-ms="2888" status="PASS">
+        <test-method signature="testAppleURL()[pri:2, instance:scripts._01_AppleTest@394a2528]" started-at="2023-05-12T19:09:38 EDT" name="testAppleURL" description="TC873" finished-at="2023-05-12T19:09:41 EDT" duration-ms="2691" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAppleURL -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:scripts._01_AppleTest@6e509ffa]" started-at="2023-05-04T13:43:21 EDT" name="tearDown" finished-at="2023-05-04T13:43:21 EDT" duration-ms="315" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:scripts._01_AppleTest@394a2528]" started-at="2023-05-12T19:09:41 EDT" name="tearDown" finished-at="2023-05-12T19:09:41 EDT" duration-ms="183" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- scripts._01_AppleTest -->
       <class name="scripts._04_GoogleSearchTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:scripts._04_GoogleSearchTest@2898ac89]" started-at="2023-05-04T13:43:21 EDT" name="setup" finished-at="2023-05-04T13:43:24 EDT" duration-ms="2268" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:scripts._04_GoogleSearchTest@6236eb5f]" started-at="2023-05-12T19:09:41 EDT" name="setup" finished-at="2023-05-12T19:09:43 EDT" duration-ms="2144" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testGoogleStoreLink()[pri:2, instance:scripts._04_GoogleSearchTest@2898ac89]" started-at="2023-05-04T13:43:24 EDT" name="testGoogleStoreLink" description="TC123: Validate Google Store Link" finished-at="2023-05-04T13:43:28 EDT" duration-ms="4416" status="PASS">
+        <test-method signature="testGoogleStoreLink()[pri:2, instance:scripts._04_GoogleSearchTest@6236eb5f]" started-at="2023-05-12T19:09:43 EDT" name="testGoogleStoreLink" description="TC123: Validate Google Store Link" finished-at="2023-05-12T19:09:47 EDT" duration-ms="4406" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGoogleStoreLink -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:scripts._04_GoogleSearchTest@2898ac89]" started-at="2023-05-04T13:43:28 EDT" name="tearDown" finished-at="2023-05-04T13:43:28 EDT" duration-ms="286" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:scripts._04_GoogleSearchTest@6236eb5f]" started-at="2023-05-12T19:09:47 EDT" name="tearDown" finished-at="2023-05-12T19:09:48 EDT" duration-ms="228" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- scripts._04_GoogleSearchTest -->
-      <class name="scripts._05_CheckBoxTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:scripts._05_CheckBoxTest@68267da0]" started-at="2023-05-04T13:43:34 EDT" name="setup" finished-at="2023-05-04T13:43:37 EDT" duration-ms="2107" status="PASS">
+      <class name="scripts._10_WindowHandles">
+        <test-method is-config="true" signature="setup()[pri:0, instance:scripts._10_WindowHandles@fd07cbb]" started-at="2023-05-12T19:11:55 EDT" name="setup" finished-at="2023-05-12T19:11:57 EDT" duration-ms="1940" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testCheckBoxInHeroApp()[pri:1, instance:scripts._05_CheckBoxTest@68267da0]" started-at="2023-05-04T13:43:37 EDT" name="testCheckBoxInHeroApp" description="TC001: Validate checkbox in hero app" finished-at="2023-05-04T13:43:41 EDT" duration-ms="3995" status="PASS">
+        <test-method signature="testTechGlobalSchoolFaceBookIcon()[pri:1, instance:scripts._10_WindowHandles@fd07cbb]" started-at="2023-05-12T19:11:57 EDT" name="testTechGlobalSchoolFaceBookIcon" description="Test Case 1: Validate FaceBook social media icon for TechGlobalSchool" finished-at="2023-05-12T19:12:24 EDT" duration-ms="26678" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTechGlobalSchoolFaceBookIcon -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:scripts._10_WindowHandles@fd07cbb]" started-at="2023-05-12T19:12:24 EDT" name="tearDown" finished-at="2023-05-12T19:12:24 EDT" duration-ms="437" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:scripts._10_WindowHandles@fd07cbb]" started-at="2023-05-12T19:12:24 EDT" name="setup" finished-at="2023-05-12T19:12:26 EDT" duration-ms="2274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testWindowHandle2()[pri:2, instance:scripts._10_WindowHandles@fd07cbb]" started-at="2023-05-12T19:12:26 EDT" name="testWindowHandle2" description="TEST CASE 2: MULTIPLE WINDOWS" finished-at="2023-05-12T19:12:33 EDT" duration-ms="6294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWindowHandle2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:scripts._10_WindowHandles@fd07cbb]" started-at="2023-05-12T19:12:33 EDT" name="tearDown" finished-at="2023-05-12T19:12:33 EDT" duration-ms="164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- scripts._10_WindowHandles -->
+      <class name="scripts._12_Actions_Class">
+        <test-method is-config="true" signature="setup()[pri:0, instance:scripts._12_Actions_Class@3e96bacf]" started-at="2023-05-12T19:13:00 EDT" name="setup" finished-at="2023-05-12T19:13:02 EDT" duration-ms="1908" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="moveToElementPractice1()[pri:1, instance:scripts._12_Actions_Class@3e96bacf]" started-at="2023-05-12T19:13:02 EDT" name="moveToElementPractice1" description="Actions | move to element 1" finished-at="2023-05-12T19:13:14 EDT" duration-ms="11946" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- moveToElementPractice1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:scripts._12_Actions_Class@3e96bacf]" started-at="2023-05-12T19:13:14 EDT" name="tearDown" finished-at="2023-05-12T19:13:14 EDT" duration-ms="181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:scripts._12_Actions_Class@3e96bacf]" started-at="2023-05-12T19:13:14 EDT" name="setup" finished-at="2023-05-12T19:13:16 EDT" duration-ms="1980" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="moveToElementPractice2()[pri:2, instance:scripts._12_Actions_Class@3e96bacf]" started-at="2023-05-12T19:13:16 EDT" name="moveToElementPractice2" description="Actions | move to element 2" finished-at="2023-05-12T19:13:26 EDT" duration-ms="9586" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- moveToElementPractice2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:scripts._12_Actions_Class@3e96bacf]" started-at="2023-05-12T19:13:26 EDT" name="tearDown" finished-at="2023-05-12T19:13:26 EDT" duration-ms="234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:scripts._12_Actions_Class@3e96bacf]" started-at="2023-05-12T19:13:26 EDT" name="setup" finished-at="2023-05-12T19:13:28 EDT" duration-ms="1866" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="clickOnElementPractice1()[pri:3, instance:scripts._12_Actions_Class@3e96bacf]" started-at="2023-05-12T19:13:28 EDT" name="clickOnElementPractice1" description="Actions | Click" finished-at="2023-05-12T19:13:33 EDT" duration-ms="5564" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnElementPractice1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:scripts._12_Actions_Class@3e96bacf]" started-at="2023-05-12T19:13:33 EDT" name="tearDown" finished-at="2023-05-12T19:13:33 EDT" duration-ms="168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:scripts._12_Actions_Class@3e96bacf]" started-at="2023-05-12T19:13:33 EDT" name="setup" finished-at="2023-05-12T19:13:35 EDT" duration-ms="1956" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="rightClickOnElementPractice()[pri:4, instance:scripts._12_Actions_Class@3e96bacf]" started-at="2023-05-12T19:13:35 EDT" name="rightClickOnElementPractice" description="Actions | Right click" finished-at="2023-05-12T19:13:43 EDT" duration-ms="7332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rightClickOnElementPractice -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:scripts._12_Actions_Class@3e96bacf]" started-at="2023-05-12T19:13:43 EDT" name="tearDown" finished-at="2023-05-12T19:13:43 EDT" duration-ms="177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:scripts._12_Actions_Class@3e96bacf]" started-at="2023-05-12T19:13:43 EDT" name="setup" finished-at="2023-05-12T19:13:45 EDT" duration-ms="1876" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="dragAndDropPractice()[pri:5, instance:scripts._12_Actions_Class@3e96bacf]" started-at="2023-05-12T19:13:45 EDT" name="dragAndDropPractice" description="Actions | Click - hold and release | Drag and drop" finished-at="2023-05-12T19:13:49 EDT" duration-ms="4263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dragAndDropPractice -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:scripts._12_Actions_Class@3e96bacf]" started-at="2023-05-12T19:13:49 EDT" name="tearDown" finished-at="2023-05-12T19:13:49 EDT" duration-ms="231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:scripts._12_Actions_Class@3e96bacf]" started-at="2023-05-12T19:13:49 EDT" name="setup" finished-at="2023-05-12T19:13:51 EDT" duration-ms="2004" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="sendKeysToAnElement()[pri:6, instance:scripts._12_Actions_Class@3e96bacf]" started-at="2023-05-12T19:13:51 EDT" name="sendKeysToAnElement" description="Actions class | send keys to an element
+" finished-at="2023-05-12T19:13:53 EDT" duration-ms="1565" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendKeysToAnElement -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:scripts._12_Actions_Class@3e96bacf]" started-at="2023-05-12T19:13:53 EDT" name="tearDown" finished-at="2023-05-12T19:13:53 EDT" duration-ms="181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:scripts._12_Actions_Class@3e96bacf]" started-at="2023-05-12T19:13:53 EDT" name="setup" finished-at="2023-05-12T19:13:55 EDT" duration-ms="1869" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="practiceKeyDownAndKeyUp()[pri:7, instance:scripts._12_Actions_Class@3e96bacf]" started-at="2023-05-12T19:13:55 EDT" name="practiceKeyDownAndKeyUp" description="Actions | key down and key up" finished-at="2023-05-12T19:13:59 EDT" duration-ms="3664" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- practiceKeyDownAndKeyUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:scripts._12_Actions_Class@3e96bacf]" started-at="2023-05-12T19:13:59 EDT" name="tearDown" finished-at="2023-05-12T19:13:59 EDT" duration-ms="170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- scripts._12_Actions_Class -->
+      <class name="scripts._05_CheckBoxTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:scripts._05_CheckBoxTest@fa36558]" started-at="2023-05-12T19:09:59 EDT" name="setup" finished-at="2023-05-12T19:10:01 EDT" duration-ms="1951" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testCheckBoxInHeroApp()[pri:1, instance:scripts._05_CheckBoxTest@fa36558]" started-at="2023-05-12T19:10:01 EDT" name="testCheckBoxInHeroApp" description="TC001: Validate checkbox in hero app" finished-at="2023-05-12T19:10:06 EDT" duration-ms="4520" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCheckBoxInHeroApp -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:scripts._05_CheckBoxTest@68267da0]" started-at="2023-05-04T13:43:41 EDT" name="tearDown" finished-at="2023-05-04T13:43:41 EDT" duration-ms="201" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:scripts._05_CheckBoxTest@fa36558]" started-at="2023-05-12T19:10:06 EDT" name="tearDown" finished-at="2023-05-12T19:10:06 EDT" duration-ms="184" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
