@@ -174,10 +174,67 @@ public class _12_Actions_Class extends Base{
 
         Assert.assertEquals(googleSearchPage.searchInputBox.getAttribute("value"), "TECHGLOBALTECHGLOBAL");
 
+    }
 
+    /*
+    1. Go to https://www.etsy.com/
+    2. Enter “Ring” in search bar and copy paste value once
+    3. Click search button
+    4. Validate the title of the page is
+    “Ringring - Etsy CA”
+     */
+
+    @Test(priority = 8, description = "Actions | Keyboard")
+    public void practiceKeyboard(){
+
+        driver.get("https://www.etsy.com/");
+
+        actions.sendKeys(etsySearchPage.searchInputBox, "Ring")
+                .keyDown(Keys.COMMAND).sendKeys("a" + "c").keyUp(Keys.COMMAND)
+                .sendKeys(Keys.ARROW_RIGHT).keyDown(Keys.COMMAND)
+                .keyUp(Keys.SHIFT)
+                .sendKeys("v").keyUp(Keys.COMMAND).pause(5).perform();
+
+        actions.click(etsySearchPage.searchButton).perform();
+        Waiter.pause(5);
+
+        Assert.assertEquals(driver.getTitle(), "Ringring - Etsy CA");
 
 
     }
+
+    /*
+    Go to https://www.etsy.com/
+    Hover over on "Jewellery & Accessories" menu item
+    Validate below categories are displayed with their expected texts
+    Accessories
+    Bags & Purses
+    Necklaces
+    Rings
+    Earrings
+    Bracelets
+    Body Jewellery
+    All Jewellery
+     */
+
+
+    @Test(priority = 9, description = "Etsy | test")
+    public void etsyTest(){
+
+        driver.get("https://www.etsy.com/");
+
+        actions.moveToElement(etsySearchPage.mainHeaderLinks.get(1)).perform();
+
+        String[] categories = {"Accessories", "Bags & Purses", "Necklaces", "Rings",
+                "Earrings", "Bracelets", "Body Jewellery", "All Jewellery"};
+
+        for (int i = 0; i < 8; i++) {
+            Waiter.waitUntilTextToBePresentInElement(driver, 10,etsySearchPage.jewelleryAndAccessoriesItems.get(i), categories[i]);
+            Assert.assertEquals(etsySearchPage.jewelleryAndAccessoriesItems.get(i).getText(), categories[i]);
+        }
+        Waiter.pause(2);
+    }
+
 
 
 

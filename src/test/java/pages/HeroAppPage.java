@@ -63,6 +63,9 @@ public class HeroAppPage {
     @FindBy(xpath = "//h3")
     public WebElement iFrameHeading3;
 
+    @FindBy(css = "#table1 th")
+    public List<WebElement> table1Headers;
+
     public void clickOnLink(String linkText){
         for (WebElement link : links) {
             if(link.getText().equals(linkText)){

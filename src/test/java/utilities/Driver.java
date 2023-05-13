@@ -5,7 +5,6 @@ import org.openqa.selenium.NotFoundException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.htmlunit.HtmlUnitDriver;
 import org.openqa.selenium.safari.SafariDriver;
 
 import java.util.concurrent.TimeUnit;
@@ -35,9 +34,6 @@ public class Driver {
                 case "safari":
                     WebDriverManager.getInstance(SafariDriver.class).setup();
                     driver = new SafariDriver();
-                    break;
-                case "headless":
-                    driver = new HtmlUnitDriver();
                     break;
                 default:
                     throw new NotFoundException("Browser IS NOT DEFINED properly!!!");

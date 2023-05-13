@@ -194,6 +194,81 @@ public class InterviewQuestions {
         interface or using network communication
 
 
+        HOW TO REFRESH BROWSER IN DIFFERENT WAYS?
+        1) actions.sendKeys(Keys.F5);
+        2) driver.navigate().refresh();
+        3) driver.get(driver.getCurrentURL());
+        4) JavaScriptExecutor
+
+        SCROLLING
+        1. Using actions.moveToElement().perform() method
+        from Actions class
+            Locate the element that you want to scroll
+            down
+            Use moveToElement(element).perform() method
+            This will scroll the page to the located element
+
+        2. Using actions.sendKeys(Keys.PAGE_DOWN) method
+        - It goes only 1 page down
+        - use while loop to perform while web element is not displayed
+        go 1 page down
+
+        3. Using JavascriptExecutor
+        - there are diff JavascriptExecutor methods
+
+        COMMON INTERVIEW QUESTIONS?
+        How do you find the broken images?
+        1. Locate all the images on a page using //img and
+        store them in a List of WebElements
+        2. Loop through each element and get their src
+        attribute and validate it is not empty or unknown
+        3. This loop will give us all the broken images,
+        and we can report them
+
+        How do you find the broken links?
+        1. Locate all the links on the page using //a
+        2. Loop through each and click on the and make
+        sure you don't get API errors like 400s
+
+        What do you do when you get NoSuchElementException?
+        1. Check my locator one more time with developer
+        tools
+        2. Hard pause to see if it is a synchronization
+        issue. However, hard pause (Thread.sleep()) is not
+        proper to resolve. After you are sure it is wait
+        issue, you will update hard pause with an explicit
+        wait
+        3. iFrame - switch
+        4. Windows - switch
+        5. Scrolling into view
+
+
+        What are the most common exceptions you got with
+        Selenium?
+        - NoSuchElementException: issues with locators
+        - StaleElementReferenceException: when element is
+        losing reference in the DOM
+        - ElementClickInterceptedException: we get this
+        exception when 2 or more web elements are overlapping
+        and click action is received by another web element
+        than the one we want to click
+        - TimeoutsException
+        - AssertionError
+        - NoAlertPresentException, NoSuchWindowException,
+        NoSuchFrameException
+        - WebDriverException
+
+        When do you switch driver focus in Selenium?
+        - Multiple windows
+        - Multiple frames
+        - Alerts
+
+        TestNG
+        GitLab - account
+
+
+
+
 
 
 

@@ -15,5 +15,7 @@ public class TGApplicationPage {
     @FindBy(xpath = "//*[contains(text(),'Affordable Cars Available Now')]")
     public WebElement heading1;
 
+    @FindBy(css = "a[data-animationtype='fadeInDown']")
+    public WebElement applyNowButton;
 
 }

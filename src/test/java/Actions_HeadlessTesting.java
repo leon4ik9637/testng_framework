@@ -1,5 +1,3 @@
-package utilities;
-
 public class Actions_HeadlessTesting {
     /*
     Mouse actions:
@@ -48,6 +46,12 @@ public class Actions_HeadlessTesting {
         }
     }
 
+    Action class:
+    - It allows performing advanced mouse and keyboard
+    actions
+    - Driver allows us sendKeys(), click(), clear()
+    - Actions class also allows dragAndDrop(), doubleClick(),
+    contextClick(), moveToElement(), keyDown(), keyUp()
 
 
 
