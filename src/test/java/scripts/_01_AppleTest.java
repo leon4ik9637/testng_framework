@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 public class _01_AppleTest extends Base{
 
 
-    @Test(priority = 1)
+    @Test(priority = 1, groups = "Functional")
     public void testAppleTitle(){
         driver.get("https://www.apple.com/");
 

@@ -266,20 +266,21 @@ public class InterviewQuestions {
         TestNG
         GitLab - account
 
+        TestNG more advantages
+        username    password
+        johndoe     1234abcd
+        alexsmith   alex1234
+        x_smith     abc123$$
 
+        new Object[][]{{"johndoe", "1234abcd"}, {}, {}, {}}
 
+        Parallel testing
+        3 * 10 -> 30
+        3 * 15 -> 45
+        3 * 20 -> 60
 
-
-
-
-
-
-
-
-
-
-
-
+        135+ seconds to run in not parallel mode
+        45 seconds to run in parallel mode
 
 
 

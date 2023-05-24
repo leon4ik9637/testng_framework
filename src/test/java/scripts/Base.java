@@ -34,7 +34,7 @@ public class Base {
     FootballUAHomePage footballUAHomePage;
     DemoGuruPage demoGuruPage;
 
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void setup(){
         driver = Driver.getDriver();
         explicitWait = new WebDriverWait(driver, 30);
@@ -56,7 +56,7 @@ public class Base {
         demoGuruPage = new DemoGuruPage(driver);
     }
 
-    @AfterMethod
+    @AfterMethod(alwaysRun = true)
     public void tearDown(){
         //TODO if there is a failure, take screenshot and attach it to the report
         softAssert.assertAll();
