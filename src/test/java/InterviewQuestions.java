@@ -282,6 +282,9 @@ public class InterviewQuestions {
         135+ seconds to run in not parallel mode
         45 seconds to run in parallel mode
 
+        Automation Framework:
+
+
 
 
 
